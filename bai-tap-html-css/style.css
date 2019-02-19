@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 100%;
+    height: 1300px;
+}
+.clear {
+    clear: both;
+}
+/*bắt đầu css phần header*/
+.header {
+    width: 100%;
+    height: 450px;
+    background-image: url('images/anh5.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.header h1 {
+    color: white;
+    font-weight: bolder;
+    padding-top: 120px;
+    padding-left: 80px;
+    word-spacing: 6px;
+}
+.header span {
+    color: white;
+    padding-left: 80px;
+    opacity: 0.7;
+}
+/*kết thúc css phần header*/
+
+/*bắt đầu css phần neighborhood */
+.neighborhood {
+    width: 100%;
+    height: 610px;
+    background-color: #eaeff7;
+}
+.neighborhood-content {
+    width: 96%;
+    margin: 0 auto;
+}
+.neighborhood-content h3 {
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 25px;
+    margin-bottom: 10px;
+}
+.neighborhood-content span {
+    color: #9fa2a5;
+}
+.neighborhood-list {
+    width: 96%;
+    margin: 40px auto;
+}
+.neighborhood-item {
+    width: 65%;
+    float: left;
+}
+.neighborhood-item1 {
+    width: 44%;
+    height: 200px;
+    background-image: url('images/mexico.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 46px;
+    margin-bottom: 40px;
+}
+.neighborhood-item1 h3 {
+    color: white;
+    font-weight: boder;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 90px;
+}
+.neighborhood-item2 {
+    width: 44%;
+    height: 200px;
+    background-image: url('images/tokyo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 46px;
+    margin-bottom: 40px;
+}
+.neighborhood-item2 h3 {
+    color: white;
+    font-weight: boder;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 90px;
+}
+.neighborhood-item3 {
+    clear: both;
+    width: 44%;
+    height: 200px;
+    background-image: url('images/newyork.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 46px;
+    margin-bottom: 40px;
+}
+.neighborhood-item3 h3 {
+    color: white;
+    font-weight: boder;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 90px;
+}
+.neighborhood-item4 {
+    width: 44%;
+    height: 200px;
+    background-image: url('images/paris.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 46px;
+    margin-bottom: 40px;
+}
+.neighborhood-item4 h3 {
+    color: white;
+    font-weight: boder;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 90px;
+}
+.neighborhood-item-big {
+    width: 35%;
+    height: 441px;
+    float: left;
+    background-image: url('images/invite.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.neighborhood-item-big h3 {
+    color: white;
+    font-weight: boder;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 190px;
+    word-spacing: 5px;
+}
+
+/*kết thúc css phần neighborhood */
+
+/*bắt đầu css phần tail */
+.tail {
+    width: 96%;
+    margin: 30px auto;
+}
+.tail-content {
+    width: 100%;
+}
+.tail-content-travel {
+    width: 32%;
+    float: left;
+    padding-right: 10px;
+}
+.tail-content-travel h3 {
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.tail-content-travel p{
+    color: #878b8e;
+    padding-bottom: 20px;
+}
+.tail-content-travel a{
+    color: #14acba;
+}
+.tail-content-host {
+    width: 32%;
+    float: left;
+    padding-right: 30px;
+}
+.tail-content-host h3 {
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.tail-content-host p{
+    color: #878b8e;
+    padding-bottom: 20px;
+}
+.tail-content-host a {
+    color: #14acba;
+}
+.tail-content-trust {
+    width: 32%;
+    float: left;
+}
+.tail-content-trust h3{
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.tail-content-trust p{
+    color: #878b8e;
+    padding-bottom: 20px;
+}
+.tail-content-trust a {
+    color: #14acba;
+}
+/*kết thúc css phần tail */
