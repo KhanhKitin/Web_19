@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.wrap {
+    width: 100%;
+    height: 750px;
+    display: flex;
+}
+/*bắt dầu css side bar*/
+.side-bar {
+    width: 20%;
+    height: 100%;
+    border-right: 0.5px solid #d6d9db;
+}
+.logo {
+    width: 100%;
+    height: 25%;
+}
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.logo h2 {
+    font-family: 'Coiny', cursive; 
+    font-size: 20px;
+    padding-left: 70px;
+    padding-top: 8px;
+}
+.menu {
+    width: 100%;
+    height: 65%;
+}
+.menu ul {
+    list-style: none;
+    padding-left: 70px;
+    display: inline-block;
+    padding-top: 40px;
+}
+.menu ul li{
+    width: 100%;
+    height: 45px;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.social {
+    width: 100%;
+    height: 10%;
+}
+.social-item {
+    padding-left: 70px;
+}
+.social-item span {
+    padding-right: 14px;
+}
+.social-item span i{
+    font-size: 14px;
+}
+.copy-right {
+   padding-left: 70px;
+}
+.copy-right p {
+    font-size: 12px;
+    padding-top: 12px;
+    opacity: 0.6;
+}
+/*kết thúc css side bar*/
+
+/*bắt dầu css services*/
+.services {
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.services hr {
+    padding-top: 25px;
+    border: 0px;
+    border-bottom: 0.5px solid #d6d9db; 
+}
+.services-title {
+    width: 100%;
+    height: 10%;
+}
+.services-title h1 {
+    font-family: 'Coiny', cursive; 
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.services-content {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.services-content-dev{
+    width: 33%;
+    height: 45%;
+    position: relative;
+    box-sizing: border-box;
+}
+.item {
+    background: darkviolet;
+    width: 65px;
+    height: 65px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.services-content-dev img {
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+}
+.services-content-dev h3 {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.services-content-dev p{
+    padding-left: 50px;
+    color: gray;
+    padding-top: 15px;
+}
+.services-content-design {
+    width: 33%;
+    height: 45%;
+    position: relative;
+    box-sizing: border-box;
+}
+.services-content-design img {
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+}
+.services-content-design h3 {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.services-content-design p{
+    padding-left: 50px;
+    color: gray;
+    padding-top: 15px;
+}
+.services-content-seo {
+    width: 33%;
+    height: 45%;
+    position: relative;
+    box-sizing: border-box;
+}
+.services-content-seo img {
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+}
+.services-content-seo h3 {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.services-content-seo p{
+    padding-left: 50px;
+    color: gray;
+    padding-top: 15px;
+}
+.services-content-adver {
+    width: 33%;
+    height: 45%;
+    position: relative;
+    box-sizing: border-box;
+}
+.services-content-adver img {
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+}
+.services-content-adver h3 {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.services-content-adver p{
+    padding-left: 50px;
+    color: gray;
+    padding-top: 15px;
+}
+.services-content-copy {
+    width: 33%;
+    height: 45%;
+    position: relative;
+    box-sizing: border-box;
+}
+.services-content-copy img {
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+}
+.services-content-copy h3 {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.services-content-copy p{
+    padding-left: 50px;
+    color: gray;
+    padding-top: 15px;
+}
+.services-content-support {
+    width: 33%;
+    height: 45%;
+    position: relative;
+    box-sizing: border-box;
+}
+.services-content-support img {
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+}
+.services-content-support h3 {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.services-content-support p{
+    padding-left: 50px;
+    color: gray;
+    padding-top: 15px;
+}
+.tail {
+    width: 100%;
+    height: 5%;
+    box-sizing: border-box;
+}
+.clear {
+    clear: both;
+}
+.tail-item {
+    width: 24px;
+    height: 24px;
+    background: #6f7175;
+    position: relative;
+    float: right;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+.tail-item i {
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 12px;
+}
+.tail hr {
+    padding-bottom: 0;
+    border: 0px;
+    border-top: 0.5px solid #d6d9db; 
+}
+/*kết thúc css services*/
