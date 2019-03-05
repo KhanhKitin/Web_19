@@ -1,0 +1,146 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.wrap {
+    width: 100%;
+}
+.clear{
+    clear: both;
+}
+.menu {
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+}
+.menu span {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    
+}
+.menu span:hover {
+    background-color: #0c0c0c;
+    cursor: pointer; 
+}
+.title {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+.form {
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+.form-one {
+    width: 100%;
+    display: flex;
+}
+.form-button-false {
+    width: 50%;
+    text-align: center;
+}
+.form-button-false button {
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e52d50;
+    border-color:  #e52d50;
+}
+.form-button-false button span {
+    float: left;
+    padding-left: 18px;
+    font-size: 18px;
+    line-height: 50px;
+}
+.form-button-false button span i{
+    color: white;
+}
+.form-button-false button p {
+    color: white;
+    font-weight: bold;
+    padding-left: 0px;
+    font-size: 18px;
+    line-height: 50px;
+}
+.form-button-false button:hover {
+    background-color: #c10327;
+    cursor: pointer;
+}
+.form-button-true {
+    width: 50%;
+    text-align: center;
+}
+.form-button-true button {
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1449e8;
+    border-color: #1449e8;
+}
+.form-button-true button span {
+    float: left;
+    padding-left: 18px;
+    font-size: 18px;
+    line-height: 50px;
+}
+.form-button-true button span i{
+    color: white;
+}
+.form-button-true button p {
+    color: white;
+    font-weight: bold;
+    padding-left: 0px;
+    font-size: 18px;
+    line-height: 50px;
+}
+.form-button-true button:hover {
+    background-color:#0531b5;
+    cursor: pointer;
+}
+
+.form-two {
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+}
+.form-res {
+    width: 50%;
+}
+.form-res button {
+    width: 110px;
+    height: 30px;
+    margin-left: 78%;
+    border-radius: 7px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.form-res button:hover {
+    background-color: #a4a5aa;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.form-ques {
+    width: 50%;
+}
+.form-ques button {
+    width: 110px;
+    height: 30px;
+    margin-right: 78%;
+    border-radius: 7px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.form-ques button:hover {
+    background-color: #a4a5aa;
+    border: 1px solid grey;
+    cursor: pointer;
+}
